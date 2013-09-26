@@ -1,30 +1,22 @@
-jMonkey Maven SDK
-=================
+# jMonkey Maven Helper
 
-The Maven jMonkey SDK Helper is a helper maven project that can be used to install the libraries necessary to build JME applications with Maven.
+The Maven jMonkey SDK Helper is a helper maven project that can be
+used to install the libraries necessary to build JME applications with
+Maven.
 
-How to install
---------------
+## How to install
 
-### Install thirdparty into local repository:
+Run the install script to install jMonkeyEngine 3.0 to a local maven
+repository:
 
-    $ cd jme3-maven-helper/jme3-thirdparty
-    $ mvn install
+    ./install.sh
 
-
-### Enabled maven for jme
-
-    $ cp jme3-maven-helper/jme3-buildhelper/pom.xml $JME_HOME/pom.xml
-
-Now you can build jme3 with maven!
-
-Use JME3 in maven project
--------------------------
+## Use JME3 in maven project
 
 ```xml
   <dependency>
       <groupId>com.jme3</groupId>
-      <artifactId>jMonkeyEngine3</artifactId>
+      <artifactId>jmonkeyengine</artifactId>
       <version>3.0.0-SNAPSHOT</version>
   </dependency>
 ```
