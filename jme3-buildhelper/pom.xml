@@ -98,7 +98,7 @@
               <goal>add-resource</goal>
             </goals>
             <configuration>
-              <resources> 
+              <resources>
                 <resource>
                   <directory>${basedir}/test-data</directory>
                   <filtering>false</filtering>

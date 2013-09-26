@@ -10,12 +10,12 @@ How to install
 
     $ cd jme3-maven-helper/jme3-thirdparty
     $ mvn install
-    
-    
+
+
 ### Enabled maven for jme
 
     $ cp jme3-maven-helper/jme3-buildhelper/pom.xml $JME_HOME/pom.xml
-    
+
 Now you can build jme3 with maven!
 
 Use JME3 in maven project
