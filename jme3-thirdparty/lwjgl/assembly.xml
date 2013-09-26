@@ -28,7 +28,7 @@
         <include>net.java.jinput:jinput-platform:jar:natives-osx</include>
       </includes>
       <unpack>true</unpack>
-      <outputDirectory>native/maxosx</outputDirectory>
+      <outputDirectory>native/macosx</outputDirectory>
     </dependencySet>
   </dependencySets>
 </assembly>
