@@ -11,12 +11,18 @@ repository:
 
     ./install.sh
 
-## Use JME3 in maven project
+## Use jME3 in Maven project
 
 ```xml
-  <dependency>
-      <groupId>com.jme3</groupId>
-      <artifactId>jmonkeyengine</artifactId>
-      <version>3.0.0-SNAPSHOT</version>
-  </dependency>
+<dependency>
+    <groupId>com.jme3</groupId>
+    <artifactId>jmonkeyengine</artifactId>
+    <version>3.0.0-SNAPSHOT</version>
+</dependency>
+```
+
+# Use jME3 in Leiningen project
+
+```clojure
+[com.jme3/jmonkeyengine "3.0.0-SNAPSHOT"]
 ```
