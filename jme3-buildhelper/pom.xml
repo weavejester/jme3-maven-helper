@@ -76,6 +76,13 @@
                   <directory>${basedir}/src/core-data</directory>
                   <filtering>false</filtering>
                 </resource>
+                <resource>
+                  <directory>${basedir}/src/core</directory>
+                  <filtering>false</filtering>
+                  <includes>
+                    <include>**/*.cfg</include>
+                  </includes>
+                </resource>
               </resources>
             </configuration>
           </execution>
